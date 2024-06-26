@@ -1,0 +1,98 @@
+mat-card{
+    width:250px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: monospace;
+    height: 260px;
+    box-shadow: 0 10px 10px 0 rgba(8, 0, 0, 0.2);
+}
+
+
+.productName , .category, .price {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.product-img {
+    /* margin-left: 70px;
+    margin-right: auto; */
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: monospace;
+    color: black;
+    margin-top: 1em;
+}
+
+
+#noproducts {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;  
+    color: darkgreen;
+}
+
+.card {
+    display: inline-block;
+
+}
+
+.mr40 {
+    margin-right: 40px;
+}
+
+
+
+.productForm {
+    border: 1px solid black;
+    width: 530px;
+    margin-left: 500px;
+    padding-left: 10px;
+}
+.productList {
+    background-color: aliceblue;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#input-container{
+    /* border: 1px solid salmon; */
+    display: flex;
+    width: 70vw;
+    justify-content: space-around;
+    margin: 0 auto;
+    gap: 1p;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+
+.inputs{
+    flex-grow: 1;
+    width: 45%; /* Adjust width to give some spacing between inputs */
+    margin-top: 1em;
+}
+
+button{
+    padding: 4px 7px;
+}
+
+#products-container{
+    display: flex;
+    margin: 0 auto;
+    /* border: 1px solid fuchsia; */
+    width: 75vw;
+    flex-wrap: wrap;
+}
+
+
+#imageContainer{
+    display: flex;
+    justify-content: center;
+}
